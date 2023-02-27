@@ -13,27 +13,42 @@ Due to this restriction,  we faced some challenges when scaling the dapp Buzzflo
 
 ### Problem 1: How to limit delegate account's access to just designated fields of the NFTs
 
-Ideally, we want the Tictok delegate account only be able to read and update the NFT's Tictok-related metrics, but never touch the Instagram or Twitter ones. Through it's technically impossible to avoid intentional access due to above mentioned restrictions, we can still provide solution to 
-
-
+Ideally, we want the Tictok delegate account only be able to read and update the NFT's Tictok-related metrics, while never touch the Instagram or Twitter ones. Through it's technically impossible to avoid intentional access due to above mentioned restrictions, we can still provide solution to avoid incautious mistakes. 
 
 ### Problem 2: How to control a particular NFT of a collection with a different access policy
 
 We want the owner to be able to cut down Instgram delegate's access to just one NFT (say: due to malicious data), while keeping the Tictok/Twitter delegates, without impacting other NFTs from the same collection. 
 
 
-this project proposes the interface contract **AccessManager** along with sample implementations and transaction tests, 
-1.  
 
+## Solution
 
-**AccessManager** is a part of Buzzflow submission for Flow's Hackathon. It's used in Buzzflow NFT smart contract 
+As a part of Buzzflow submission for Flow's Hackathon, this repository proposes the interface contract **AccessManager** to help above mentioned problems. This section will discuss the solution. 
 
+Again, AccessManager is designed to prevent the damage of incautious transactions from arbitrarily accessing resources. Technically, it cannot prevent intentional damages.
 
+>  AccessManager is used in Buzzflow NFT smart contract. You can try AccessManager along with sample implementations and transaction tests in the [Playground](https://play.flow.com/87a940a4-33cb-41e3-94c1-80cb71c35bfe). The next section will walk you through how to test it. This 
 
+### Key Concepts
 
-## Design
+We call a resource under access management as an *Entity*. An *Entity* has one or more declared *Fields*. Accounts can only access a *Field* through a *Channel*, if the *Channel* explicitly pre-allowed.
+
+**AccessManager** allows different set of access types defined for contract's own demand. Typical sets are (Query, Mutation) or (Create, Read, Update, Delete)
+
 
 
 ## How to use this Playground
+
+Playground address [Here](https://play.flow.com/87a940a4-33cb-41e3-94c1-80cb71c35bfe). Steps to play:
+
+1. Deploy `AccessManager(0x01)`
+2. Deploy `HelloWorldExample(0x02)` . Then  try the following transactions to understand how does AccessManager works:
+   1. HW: CreateResource
+   2. HW: RegisterAccess
+   3. HW: TestAccess
+3. Deploy `SimplifiedBuzzflowNFT(0x03)`. This is the simplified version of Buzzflow NFT smart contract. It allows 
+4. Then  try the following transactions:
+   1. **SBuzzflow: GrantAccess**: create resource, grant access to Tictok delegate and Twitter delegate to different set of fields
+   2. **SBuzzflow: TestAccess** : test how delegate can mutate ticktok-related fields now.
 
 ## Extra
