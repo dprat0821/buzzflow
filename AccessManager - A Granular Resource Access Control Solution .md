@@ -7,8 +7,7 @@ Cadence provides both [capability-based access control](https://developers.flow.
 
 Due to this restriction,  we faced some challenges when scaling the dapp Buzzflow. 
 
->
-As the background, users can create AR videos with their NFT's 3D variants through Buzzflow's mobile app, then post these videos to the binded social platforms. Buzzflow will aggregate the metrics such as likes and followers through the se platform's APIs to update the NFT's storage, and eventually impact the NFT's rareness and market value. For security and scaling measures, an obvious architecture decision is to manage each social platform through an exclusive delegate account on Flow blockchain.
+> As the background, users can create AR videos with their NFT's 3D variants through Buzzflow's mobile app, then post these videos to the binded social platforms. Buzzflow will aggregate the metrics such as likes and followers through the se platform's APIs to update the NFT's storage, and eventually impact the NFT's rareness and market value. For security and scaling measures, an obvious architecture decision is to manage each social platform through an exclusive delegate account on Flow blockchain.
 
 ![AccessOrig](AccessOrig.jpg)
 
