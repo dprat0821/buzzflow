@@ -4,7 +4,7 @@
 
 * Intro video at [Loom](https://www.loom.com/share/6e13a15f8f6244ab9548f7c7a4df36ae). 
 * Showcase video at [Youtube](https://youtu.be/5Busbnyhzuc).
-* Maketplace in [AWS](http://http://172.31.7.43/). Note: sometimes down. contact dprat0821@gmail.com if need a demo.
+* Maketplace in [AWS](http://72.44.61.134/). Note: sometimes down. contact dprat0821@gmail.com if need a demo.
 * AR mobile app in [Testflight](https://testflight.apple.com/join/QIlICAHD). (iOS only)
 * AccessManager (Cadence granular access control solution) Read [HERE](https://github.com/dprat0821/buzzflow/blob/main/AccessManager%20-%20A%20Granular%20Resource%20Access%20Control%20Solution%20.md).
 
