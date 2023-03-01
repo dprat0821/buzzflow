@@ -13,7 +13,7 @@
 The submission has two parts: 
 1. Buzzflow itself, including a webapp and an AR mobile app
 
-   * The webapp is deployed to AWS on http://http://172.31.7.43/ . Note: Due to some defects the server instance sometimes would down. Please contact dprat0821@gmail.com if we want a demo.
+   * The webapp is deployed to AWS on http://72.44.61.134/ . Note: Due to some defects the server instance sometimes would down. Please contact dprat0821@gmail.com if we want a demo.
 
    * The mobile app is a AR camera,  support the following content:
 
