@@ -2,25 +2,25 @@
 
 
 pub contract interface AccessManager {
+  /// contracts can define their own set of AccessTypes. See HelloWorldExample(0x02) and SimplifiedBuzzflowNFT(0x03)
+  pub enum AccessType: UInt8 {}
 
-  pub enum AccessType: UInt8 {
-      pub case generate
-      pub case read
-      pub case update
-      pub case delete
-  }
 
   pub resource interface Entity {
-    pub let id: UInt64
-    
-    pub fun registerAccess(_ account: Address, for accessTypes:[AccessType], to field: AnyStruct )
-    pub fun unregisterAccess(_ account: Address, for accessTypes:[AccessType], from fields: AnyStruct)
-    
-    pub fun getAccesses(): {Address: {String: [AccessManager.AccessType]}}
+    pub let id: UInt64 
+  }
 
-    pub fun can(_ account: Address, accessType: AccessType, to field: AnyStruct): Bool 
-    pub fun query(_ entityId: UInt64, for field: AnyStruct, by account: Address): AnyStruct
-    pub fun mutate(_ entityId: UInt64, for field: AnyStruct, with newValue: AnyStruct, by account: Address) 
+  pub resource interface Channel {
+    pub fun register(_ entity: &AnyResource{Entity})
+    pub fun unregister(_ entity: &AnyResource{Entity})
+
+    pub fun allow(_ account: Address, _ accessTypes:[AccessManager.AccessType], to field: String ) 
+    
+    pub fun getAccesses(): {Address: {String: [AccessType]}}
+
+    pub fun can(_ account: Address, _ accessType: AccessManager.AccessType, to field: String): Bool
+    pub fun query(entity: UInt64, for field: String, by account: Address): AnyStruct
+    pub fun mutate(entity: UInt64, for field: String, with newValue: AnyStruct, by account: Address)
   }
 
 
