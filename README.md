@@ -42,6 +42,3 @@ Most NFT projects determine an item's value by 2 factors: (1) the project's own 
 
 
 
-
-
-
