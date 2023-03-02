@@ -32,18 +32,18 @@ We want the owner to be able to cut down Instgram delegate's access to just one 
 
 To continue further discussion, let's first define some terminologies.
 
-We call a resource an **Entity** in this context, if the resource is deemed by its owner of having at least one public declaration that the owner does not want to expose to all other accounts. We can such public declaration a **Field**.
+We call a resource an **Entity** in this context, if the resource is deemed by its owner as having at least one public declaration that the owner does not want to expose to all other accounts. We can such public declaration a **Field**.
 
-There could be a few  **Accesse Types**. Either (Read/Write), or (Create/Read/Update/Delete) or (Query/Mutation), or simply (Access). Ideally, the owner should have the control of **Allowing** certain accounts with certain access types to the entity.
+There could be a set of **Accesse Types**. Either (Read/Write), or (Create/Read/Update/Delete) or (Query/Mutation), or simply (Access). Ideally, the owner should have the control of **Allowing** certain accounts with certain access types to the entity.
 
-A **Breach** is a transaction in which the authorizer account trying disallowed access types and/or to disallowed fields of an entity.
+A **Breach** is a transaction in which the authorizer account trying at least one disallowed access types and/or to disallowed fields of an entity.
 
 There are two major types of breaches:
 
-1. **Intentional Breach**: the breach intentionally conduct by the authorizer account, bypassing security countermeasures.
-2. **Incautious Breach**: this is happening when the transactions was sent with good wills. However still possible to make a damage due to lack of preventive measures.
+1. **Intentional Breach**: the breach is intentionally conducted by the authorizer account. the Authorizer may even try special technical tactics to bypass security countermeasures.
+2. **Incautious Breach**: this is happening when the transactions was sent with good wills but bad or defective logic. Incautious breaches wouldn't attempt complex techical tactics to bypass security coutermeasures, however still possible to make a damage due to lack of preventive measures.
 
-We didn't find any way to protect entities from intentional breaches. However, there can be a solution or design pattern to previous incautious breaches.
+For the usecases in the section Problem Statement, We didn't find any effective way to protect entities from intentional breaches. However, there can be a solution or design pattern to prevent incautious breaches.
 
 ## Solution
 
@@ -54,7 +54,7 @@ As a part of Buzzflow submission for Flow's Hackathon, we propose **AccessManage
    1. HW: CreateResource
    2. HW: RegisterAccess
    3. HW: TestAccess
-3. Deploy `SimplifiedBuzzflowNFT(0x03)`. This is the simplified version of Buzzflow NFT smart contract. It allows 
+3. Deploy `SimplifiedBuzzflowNFT(0x03)`. This is the simplified version of Buzzflow NFT smart contract.  
 4. Then  try the following transactions:
    1. **SBuzzflow: GrantAccess**: create resource, grant access to Tictok delegate and Twitter delegate to different set of fields
    2. **SBuzzflow: TestAccess** : test how delegate can mutate ticktok-related fields now.
