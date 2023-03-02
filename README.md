@@ -20,7 +20,7 @@ The submission has two parts:
      *  Sport studios projects of NBA Topshot, NFL, LaLiga
 
      * Readyplayer.me avatars (show case of other 3D model series )
-2. AccessManager - A Granular Resource Access Control Solution for Flow Blockchain. Read [HERE](https://github.com/dprat0821/buzzflow/blob/main/AccessManager%20-%20A%20Granular%20Resource%20Access%20Control%20Solution%20.md). Playground [HERE](https://play.flow.com/87a940a4-33cb-41e3-94c1-80cb71c35bfe).
+2. AccessManager - A Granular Resource Access Control Solution for Flow Blockchain. Read [HERE](https://github.com/dprat0821/buzzflow/blob/main/AccessManager%20-%20A%20Granular%20Resource%20Access%20Control%20Solution%20.md). Playground [HERE](https://play.flow.com/000db34a-81ee-4709-9d39-948bf953138d?type=account&id=617f068d-825c-4a7e-96ca-f45bb6350234&storage=none).
 
 ## Problem: 
 Most NFT projects determine an item's value by 2 factors: (1) the project's own impact (2) the item's inborn (mint-time) trait rarenesses. Owners can bare push their NFTs' value once minted, or when the projects fade down.  **What the owners can do to grow their NFTs' fames and values outside of projects' limited scope?**

@@ -47,7 +47,7 @@ For the usecases in the section Problem Statement, We didn't find any effective 
 
 ## Solution
 
-As a part of Buzzflow submission for Flow's Hackathon, we propose **AccessManager** to help previous mentioned incautious breaches. AccessManager is used in Buzzflow NFT smart contract. You can try AccessManager along with sample implementations and transaction tests in the [Playground](https://play.flow.com/87a940a4-33cb-41e3-94c1-80cb71c35bfe). Steps to play:
+As a part of Buzzflow submission for Flow's Hackathon, we propose **AccessManager** to help previous mentioned incautious breaches. AccessManager is used in Buzzflow NFT smart contract. You can try AccessManager along with sample implementations and transaction tests in the [Playground](https://play.flow.com/000db34a-81ee-4709-9d39-948bf953138d?type=account&id=617f068d-825c-4a7e-96ca-f45bb6350234&storage=none). Steps to play:
 
 1. Deploy `AccessManager(0x01)`
 2. Deploy `HelloWorldExample(0x02)` . Then  try the following transactions to understand how does AccessManager works:
