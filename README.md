@@ -37,8 +37,27 @@ Most NFT projects determine an item's value by 2 factors: (1) the project's own 
 
 ## Product Design Thoughts and Benefits
 * New concept: Grow-to-earn
-* For Flow blockchain, Buzzflow can import famous NFT series from other blockchains, thus **quickly enrich Flow's ecosystem**.  Besides, with the target artifacts of attractive AR short videos, it exposes high marketing potential for Flow and original NFTs themselves.
-* Attract the NFT owners who own the "almost wasted" assets.
+
+* Benefits for Flow blockchain:
+
+  * Users import their NFT series (including famous ones) from other blockchains to Buzzflow to create 3D/AR variants. it can **quickly enrich Flow's ecosystem**. 
+  * Buzzflow motivates and incentives owners create and share attractive AR videos to mainstream social platforms (Tictok, IG, Twitter, etc.), granting high marketing exposures for the related NFTs and Flow blockchain itself.
+  * By providing high quality 3D/AR NFT variant pipelines and toolchains, Buzzflow can attracts other NFT projects' partnership to Flow blockchain.
+
+* Benefits for NFT owners:
+
+  * NFT owners usually have questions: 
+
+    * What I can do to push my assets' value? It's minted as "common" for all traits.
+    * I tried play-to-earn. But the tokens I earned still circulate internally in the project's scope. What if one day the whole project starts losing impact?
+    * I have full ownership and the rights of producing variants and peripherals for my NFT. But how can I market it? What I can make for marketing? The billboards of Times square? 
+
+  * Buzzflow's answer: yes, the billboards of Times square, at least through phone cameras. Plus, if you make it on   Himalayas, it's even more precious ... forget the "common" tags. All NFTs are born equal. 
+
+    > "You don't have to be great to start, but you have to start to be great."  - Zig Ziglar
+    >
+    > So do your NFTs
+
 
 
 
