@@ -1,6 +1,6 @@
 # Buzzflow
 
-**All NFTs are minted equal - Forget the pre-judged "common"  "rare" tags. Make the buzz, see what's the real "Non-Fungible".**
+**All NFTs are minted equal - No matter which main chain it came from, forget the pre-judged tags like "common" or "rare". Make the buzz to see what's the real "Non-Fungible".**
 
 The real questions NFT owners are wondering everyday: 
 
