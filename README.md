@@ -1,12 +1,12 @@
 # Buzzflow
 
-**All NFTs are minted equal - No matter which main chain it came from, forget the pre-judged tags like "common" or "rare". Make the buzz to see what's the real "Non-Fungible".**
+**All NFTs are minted equal: No matter which chain it came from, no matter the tags pre-defined were "common" or "rare". They are called "Non-Fungible" because you have the chance to make them really unique.**
 
-The real questions NFT owners are wondering everyday: 
+NFT owners struggle everyday: 
 
-* What I can do to push my assets' values? It's minted "common" for all traits.
-* Try play-to-earn? The tokens I earned only circulate internally in the project. What if the whole project starts losing impact one day?
-* Outside of the system,I have full ownership and the rights of producing variants and peripherals for my NFTs. But how can I market them? What I can make for marketing? The billboards in the Times Square $5k/day? 
+* What I can do to grow my assets' values? They were minted "common" for almost all traits.
+* Try play-to-earn? The tokens I earned only circulate in the project's own system. What if it starts losing impact one day?
+* Outside of the system, I still have full ownership and the rights of producing variants and peripherals for my NFTs. But how can I market them? What I can make for marketing? The billboards in the Times Square $5k/day? 
 
 **Buzzflow's Answer:**
 
