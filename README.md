@@ -1,20 +1,18 @@
 # Buzzflow
 
-## Project Introduction
-
 The real questions NFT owners are wondering everyday: 
 
 * What I can do to push my assets' values? It's minted "common" for all traits.
-* Try play-to-earn? The tokens I earned still circulate internally in the project. What if the whole project starts losing impact one day?
-* I have full ownership and the rights of producing variants and peripherals for my NFTs. But how can I market them? What I can make for marketing? The billboards in the Times Square? 
+* Try play-to-earn? The tokens I earned only circulate internally in the project. What if the whole project starts losing impact one day?
+* Outside of the system,I have full ownership and the rights of producing variants and peripherals for my NFTs. But how can I market them? What I can make for marketing? The billboards in the Times Square $5k/day? 
 
 **Buzzflow's Answer:**
 
-Yes, the billboards in the Times Square, through your phone camera and in a Tweet.
+Yes, the billboards in the Times Square, through your phone camera and in a Tweet, for free.
 
 Plus, instead of the Times Square, if you make it on Himalayas or the North Pole, or rock it on avatar threads to make fire vids, it would be more unique and precious ... 
 
-All NFTs are born equal - Just forget the "common" tags,  let's see what makes the real "non-fungible".
+All NFTs are born equal - Just forget the pre-defined "common" tags,  let's make the buzz, see what makes the real "non-fungible".
 
 > "You don't have to be great to start, but you have to start to be great."  - Zig Ziglar
 >
@@ -22,16 +20,16 @@ All NFTs are born equal - Just forget the "common" tags,  let's see what makes t
 
 ## Key Materials of Submission
 
-* Intro video at [Loom](https://www.loom.com/share/6e13a15f8f6244ab9548f7c7a4df36ae). 
 * Trailer video at [Youtube](https://youtu.be/5Busbnyhzuc).
+* Intro video at [Loom](https://www.loom.com/share/6e13a15f8f6244ab9548f7c7a4df36ae). 
 * Maketplace in [AWS](http://72.44.61.134/). Note: sometimes down. contact dprat0821@gmail.com if need a demo.
 * Buzzflow AR mobile app  (integrated Sports Studios projects and readyplayer.me avatars ) in [Testflight](https://testflight.apple.com/join/QIlICAHD). (iOS only)
 * AccessManager (Cadence granular access control solution) Read [HERE](https://github.com/dprat0821/buzzflow/blob/main/AccessManager%20-%20A%20Granular%20Resource%20Access%20Control%20Solution%20.md). Playground [HERE](https://play.flow.com/000db34a-81ee-4709-9d39-948bf953138d?type=account&id=617f068d-825c-4a7e-96ca-f45bb6350234&storage=none).
 
-## Problem: 
+## Problem Statement
 Most NFT projects determine an item's value by 2 factors: (1) the project's own impact (2) the item's inborn (mint-time) trait rarenesses. Owners can bare push their NFTs' value once minted, or when the projects fade down.  **What the owners can do to grow their NFTs' fames and values outside of projects' limited scope?**
 
-## Solution of Buzzflow:
+## Buzzflow Solution 
 (1) Bring your existing NFT **from any blockchain** to Buzzflow on Flow, by verifying your ownership. 
 (2) Buzzflow automatically creates 3D/AR variants of this NFT. Chances are:
 
@@ -41,7 +39,7 @@ Most NFT projects determine an item's value by 2 factors: (1) the project's own 
 
 (3) Through Buzzflow's AR mobile app, owners use their own creativities to make 3D/AR videos, and share to social platforms such as Tictok, Instagram and Twitter. With social accounts binded, Buzzflow can provide the trends of its followers, likes and shares **as the dynamic traits**. These dynamic traits will thus impact the NFT's market value.
 
-## Product Design Thoughts and Benefits
+## Product Thoughts and Benefits
 * New concept: Grow-to-earn
 
 * Benefits for Flow blockchain:
