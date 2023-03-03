@@ -12,7 +12,7 @@ Yes, the billboards in the Times Square, through your phone camera and in a Twee
 
 Plus, instead of the Times Square, if you make it on Himalayas or the North Pole, or rock it on avatar threads to make fire vids, it would be more unique and precious ... 
 
-All NFTs are born equal - Just forget the pre-defined "common" tags,  let's make the buzz, see what makes the real "non-fungible".
+**All NFTs are minted equal - Just forget the pre-judged "common" tags. Make the buzz, see what's the real "Non-Fungible".**
 
 > "You don't have to be great to start, but you have to start to be great."  - Zig Ziglar
 >
